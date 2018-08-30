@@ -12,6 +12,7 @@ public class Vehiculo {
         Aceleracion = aceleracion;
         this.giro = giro;
         this.patente = patente;
+        
     }
 
 
