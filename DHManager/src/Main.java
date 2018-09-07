@@ -10,8 +10,8 @@ public class Main {
 
         DigitalHouseManager digitalHouseManager = new DigitalHouseManager(new ArrayList<>(),
                 new ArrayList<>(), new ArrayList<>(), new ArrayList<>());
-        digitalHouseManager.altaProfesorTitular("Pablo", "Diaz", 11, "nada");
-        digitalHouseManager.altaProfesorTitular("Jorge", "Maestro", 12, "todo");
+        digitalHouseManager.altaProfesorTitular("Peter", "Waquim", 11, "Star Wars");
+        digitalHouseManager.altaProfesorTitular("Patricio", "Ugarte", 12, "Mate");
 
         digitalHouseManager.altaProfesorAdjunto("Marcos", "Perez", 21, 10);
         digitalHouseManager.altaProfesorAdjunto("Juan", "Soledad", 22, 12);
@@ -33,10 +33,22 @@ public class Main {
         digitalHouseManager.inscribirAlumno(33, 20002);
 
         digitalHouseManager.bajaProfesor(21);
-        digitalHouseManager.bajaCurso(20001);
+        digitalHouseManager.bajaCurso(20002);
 
         LectorDeArchivosCSV lectorDeArchivosCSV = new LectorDeArchivosCSV();
         lectorDeArchivosCSV.leerCsvYAgregarALista();
+        digitalHouseManager.altaCurso("Mobile Android", 20003, 25);
+
+        for (Integer i = 0; i < lectorDeArchivosCSV.getListaImportada().size();i++){
+            String[] lista;
+            lista = lectorDeArchivosCSV.getListaImportada().get(i);
+            Integer codigo = Integer.valueOf(lista[0]);
+            String nombre = lista[1];
+            String apellido = lista[2];
+            digitalHouseManager.altaAlumno(nombre,apellido,codigo);
+            digitalHouseManager.inscribirAlumno(codigo, 20003);
+
+        }
 
 
     }
