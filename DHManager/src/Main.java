@@ -35,6 +35,9 @@ public class Main {
         digitalHouseManager.bajaProfesor(21);
         digitalHouseManager.bajaCurso(20001);
 
+        LectorDeArchivosCSV lectorDeArchivosCSV = new LectorDeArchivosCSV();
+        lectorDeArchivosCSV.leerCsvYAgregarALista();
+
 
     }
 }
