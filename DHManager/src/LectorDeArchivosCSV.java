@@ -15,7 +15,8 @@ public class LectorDeArchivosCSV {
 
     public void leerCsvYAgregarALista(){
 
-        File file = new File("C:/Users/o21582/Documents/Trabajos IntelliJ/CSVFileReader/src/listadoDeAlumnos.csv");
+//        File file = new File("C:/Users/o21582/Documents/Trabajos IntelliJ/CSVFileReader/src/listadoDeAlumnos.csv");
+        File file = new File("src/listadoDeAlumnos.csv");
 
         BufferedReader reader = null;
         try {
