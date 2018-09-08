@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sumador</string>
+    <string name="sumar">SUMAR</string>
+    <string name="restar">RESTAR</string>
+    <string name="zero">0</string>
+
+</resources>
