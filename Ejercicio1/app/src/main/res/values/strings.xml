@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="textview1">Escribi Aca</string>
+    <string name="buttonMain">Aceptar</string>
+</resources>

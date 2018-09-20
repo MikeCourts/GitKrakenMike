@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio2</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="edad">Edad:</string>
+    <string name="buttonMandar">Mandar</string>
+    <string name="nombreIngresado">Nombre ingresado:</string>
+    <string name="apellidoIngresado">Apellido ingresado:</string>
+    <string name="edadIngresado">Edad ingresado:</string>
+
+</resources>
