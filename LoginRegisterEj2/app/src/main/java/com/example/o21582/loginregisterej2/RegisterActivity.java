@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,10 +27,13 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
                 Bundle bundle = new Bundle();
-                String pwd1 = editTextPassword1.toString();
-                String pwd2 = editTextPassword2.toString();
+                String pwd1 = editTextPassword1.getText().toString();
+                String pwd2 = editTextPassword2.getText().toString();
 
-                Toast.makeText(RegisterActivity.this, pwd1.toString(), Toast.LENGTH_LONG).show();
+
+
+
+
 
                 if (pwd1.equals(pwd2)){
                     intent.putExtras(bundle);
