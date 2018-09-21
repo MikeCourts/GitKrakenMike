@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/editTextUsernameRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="@string/username"
+        android:textColor="@color/colorUserAndPwd"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/password"
+        android:textColor="@color/colorUserAndPwd"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordConfirmRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/confirmPassword"
+        android:textColor="@color/colorUserAndPwd"/>
+
+    <Button
+        android:id="@+id/buttonLoginRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/register"
+        android:layout_marginTop="20dp" />
+
+
+
+</LinearLayout>
