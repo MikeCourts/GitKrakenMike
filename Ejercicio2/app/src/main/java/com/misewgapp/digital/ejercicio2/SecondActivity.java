@@ -27,7 +27,7 @@ public class SecondActivity extends AppCompatActivity {
             Bundle bundle = intent.getExtras();
             String nombre = bundle.getString(NOMBRE);
             String apellido = bundle.getString(APELLIDO);
-            Integer edad = bundle.getInt(EDAD);
+            String edad = bundle.getString(EDAD);
             textViewNombre.setText(nombre);
             textViewApellido.setText(apellido);
             textViewEdad.setText(edad);

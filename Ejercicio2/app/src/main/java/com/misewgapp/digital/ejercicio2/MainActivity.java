@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
                 bundleNombre.putString(SecondActivity.NOMBRE, String.valueOf(editTextNombre.getText()));
                 bundleApellido.putString(SecondActivity.APELLIDO, String.valueOf(editTextApellido.getText()));
-                bundleEdad.putInt(SecondActivity.EDAD, Integer.valueOf(editTextEdad.getText().toString()));
+                bundleEdad.putString(SecondActivity.EDAD, String.valueOf(editTextEdad.getText()));
 
                 intent.putExtras(bundleNombre);
                 intent.putExtras(bundleApellido);
