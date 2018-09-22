@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackgroundMain"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewWelcomeMain"
+        android:text="@string/bienvenido"
+        android:textSize="45sp"
+        android:textColor="@color/colorLetraNegra"
+        android:textStyle="bold"
+        android:background="@color/colorBackgroundWelcomeMain"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonComenzar"
+        android:text="@string/buttonComenzar"
+        android:textSize="18sp"
+        android:background="@color/colorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    
+
+</LinearLayout>

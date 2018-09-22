@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FormularioCompleto</string>
+    <string name="bienvenido">¡Bienvenido al Formulario DigitalHouse!</string>
+    <string name="buttonComenzar">COMENZAR</string>
+    <string name="completarFormulario">Completar el formulario</string>
+    <string name="buttonEnviar">ENVIAR</string>
+</resources>
