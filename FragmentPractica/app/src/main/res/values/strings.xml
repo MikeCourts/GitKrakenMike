@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentPractica</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mensaje">Mensaje</string>
+    <string name="ingreseMensaje">Ingrese Mensaje</string>
+    <string name="enviar">Enviar</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TwitterLoginTest</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">IwokWghDr0FvlWCSAI00fbZ7V</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">RtO9WzWbwmkmE0ltj0ZZMZLKAliAapZxJBFEkXG0VpodtWkM9l</string>
+</resources>
