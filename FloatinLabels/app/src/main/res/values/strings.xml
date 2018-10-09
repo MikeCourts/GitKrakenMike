@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FloatinLabels</string>
+    <string name="error_password">Debe contener al menos 10 caracteres</string>
+
+</resources>
