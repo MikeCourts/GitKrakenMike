@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_bar_user"
+        android:icon="@drawable/user_icon_action_bar"
+        android:title="userPage"
+        app:showAsAction="always" />
+    <item
+        android:title="search"
+        android:id="@+id/action_bar_search"
+        android:icon="@drawable/search_action_bar"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="favorites"
+        android:id="@+id/action_bar_favorites"
+        android:icon="@drawable/favorites_action_bar"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>
