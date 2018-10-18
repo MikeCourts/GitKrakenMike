@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="all"/>
+    <item android:id="@+id/birthday"
+        android:title="Happy Birthday"
+        android:icon="@drawable/ic_cake_black_24dp"/>
+
+    <item android:id="@+id/spa"
+        android:title="Spa Gift"
+        android:icon="@drawable/ic_spa_black_24dp"/>
+
+    <item android:id="@+id/dinner"
+        android:title="Dinner Gift"
+        android:icon="@drawable/ic_restaurant_black_24dp">
+
+    </item>
+
+</menu>
