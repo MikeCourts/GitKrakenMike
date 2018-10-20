@@ -1,4 +1,4 @@
-package com.misewgapp.digital.viewpager;
+package com.digitalhouse.viewpager;
 
 
 import android.os.Bundle;
@@ -7,16 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.digitalhouse.viewpager.R;
-
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BlueFragment extends Fragment {
+public class GreenFragment extends Fragment {
 
 
-    public BlueFragment() {
+    public GreenFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +23,7 @@ public class BlueFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blue, container, false);
+        return inflater.inflate(R.layout.fragment_green, container, false);
     }
 
 }
