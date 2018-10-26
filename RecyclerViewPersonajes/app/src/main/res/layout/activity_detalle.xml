@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleActivity"
+
+    android:orientation="vertical"
+    android:weightSum="100"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageViewImagenDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        tools:src="@drawable/c3po"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/textViewNombreDetalle"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        tools:text="C3PO"/>
+
+    <TextView
+        android:id="@+id/textViewCategoriaDetalle"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        tools:text="DROID"/>
+
+
+
+
+
+</LinearLayout>

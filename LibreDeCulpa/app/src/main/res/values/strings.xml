@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LibreDeCulpa</string>
+    <string name="frase_main">Recetas gourmet para disfrutar el placer de la cocina y la comida</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
