@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wooden_background2"
     tools:context=".AboutUsFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="155dp"
+        android:layout_height="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo" />
+
+
+
+
     <TextView
+        android:id="@+id/textview_about_us"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="ABOUT US"
-        android:textSize="35sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:padding="25sp"
+        android:background="@drawable/back"
+        android:textSize="12sp"
         android:gravity="center"/>
 
-</FrameLayout>
+
+
+</LinearLayout>

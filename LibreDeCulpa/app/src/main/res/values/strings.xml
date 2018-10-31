@@ -4,4 +4,21 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings de las recetas -->
+    <string name="ingredientes">Close navigation drawer</string>
+
+    <!-- String de About Us -->
+    <string name="about_us">Los productos Libre de Culpa siguen provocando placer, inspiración y dando alas a la creatividad de quienes los eligen día a día.
+
+Libre de Culpa no sólo es la vanguardia del sabor local, también lo es a la hora de elegir la calidad de los productos exclusivos que importa de todo el mundo.
+
+Aliado incondicional de la innovación en la cocina, Libre de Culpa está detrás del toque secreto para quienes desean sorprender a sus agasajados.
+
+Con el mismo desafío de siempre: ¡Atreverse a ser Gourmet!</string>
+
+
 </resources>
