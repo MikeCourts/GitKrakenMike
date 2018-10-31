@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> master
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".DetalleActivity"
 
     android:orientation="vertical"
@@ -34,6 +40,36 @@
         android:id="@+id/textViewCategoriaDetalle"
         android:layout_marginTop="20dp"
 
+=======
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".DetalleActivity"
+    android:background="@drawable/backgrounddetalle2"
+
+    >
+
+    <ImageView
+        android:id="@+id/IM_image_detalle"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        tools:src="@drawable/r2d2"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/TV_nombre_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        tools:text="R2D2"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/TV_categoria_detalle"
+>>>>>>> master
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
@@ -42,7 +78,10 @@
         tools:text="DROID"/>
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> master
 </LinearLayout>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
     <group android:id="@+id/group3" android:checkableBehavior="single">
+=======
+
+    <group android:id="@+id/group1" android:checkableBehavior="all"/>
+>>>>>>> master
     <item android:id="@+id/birthday"
         android:title="Happy Birthday"
         android:icon="@drawable/ic_cake_black_24dp"/>
@@ -11,6 +16,13 @@
 
     <item android:id="@+id/dinner"
         android:title="Dinner Gift"
+<<<<<<< HEAD
         android:icon="@drawable/ic_restaurant_black_24dp"/>
     </group>
+=======
+        android:icon="@drawable/ic_restaurant_black_24dp">
+
+    </item>
+
+>>>>>>> master
 </menu>

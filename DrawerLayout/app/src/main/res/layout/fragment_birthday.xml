@@ -3,9 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".BirthdayFragment"
     android:background="#FF0000">
 
+=======
+    android:background="@drawable/happy_bday"
+    tools:context=".BirthdayFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+>>>>>>> master
 
 
 </FrameLayout>
