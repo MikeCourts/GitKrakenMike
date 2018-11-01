@@ -1,0 +1,203 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\168cfbfc7e2b4d6e1d999987b0e3d606\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c4a04959a4ce428fa6f59bc438a932c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e6944422f33c838d98155c585f9c33f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\2ca343342163656b7659f290540285cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\f8d384cdf00c1b4dda01b87203867c06\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\373874c811ffd9b84bd53e50f8fd577c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fe9441a8cc359f67610ae49791051c2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\65ad3f272aa5178e954f8cb76204a8db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9ddaadbb5b6b7711a9a15ae8aa371fc8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\85849def7bbc78d1090730209bc22391\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\113290280ae90a91ab2cd6c6373690c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\173fa3f5904b97b2a7707de40b36fbe2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9904f81dc170c1922930d7a13042f702\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\421ba915b284ac0f78ed4869a6a71ef9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\381bd7fde04de96d31b9c9c40b7cd66b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8d542e6f779c9f94ca8a23be7ab9a660\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\a35f0fc67c4638b42ea3a52599bd4a39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\cc8a974ae88975685dccd54567549ab9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f6f395fe6d47e248468823dd277bbaca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54b481abec1a9aa87c1402266d6fc6bc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d50ccdffb83aeb1a8cd4c07192d3509c\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7966da29ea5a1b46a03dcfd222c34af6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\839fc01423d4f50866e9e56266dc4c93\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\69264e8b75b57c51120d7978d10a9841\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e10723e7536fe98e0cf7d9fff42d728f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\22fcaccc74d3b605c15d4e3c934203cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6d768c5807fce3b62873c39914565059\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\10c2fdaa58f04c83817cf89965102403\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d18413683b0b9a31be1dd182a916040d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ab14ed0ec906e439af7f3d4c6bf7d460\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2df3fd6c6d3ea23619546df39a7646c1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\49a068eabbff5cba9a68df41f8fd595d\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:5:5-34:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\168cfbfc7e2b4d6e1d999987b0e3d606\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\168cfbfc7e2b4d6e1d999987b0e3d606\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54b481abec1a9aa87c1402266d6fc6bc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54b481abec1a9aa87c1402266d6fc6bc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d50ccdffb83aeb1a8cd4c07192d3509c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d50ccdffb83aeb1a8cd4c07192d3509c\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54b481abec1a9aa87c1402266d6fc6bc\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.digitalhouse.mvcjsonguiado.v1.ActivityRecyclerViewProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:12:9-70
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:12:19-67
+activity#com.example.digitalhouse.mvcjsonguiado.v1.ActivityViewPagerProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:13:9-67
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:13:19-64
+activity#com.example.digitalhouse.mvcjsonguiado.v2Refactor.ActivityRecyclerViewProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:14:9-78
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:14:19-75
+activity#com.example.digitalhouse.mvcjsonguiado.v2Refactor.ActivityViewPagerProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:15:9-75
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:15:19-72
+activity#com.example.digitalhouse.mvcjsonguiado.v3Offline.ActivityRecyclerViewProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:16:9-77
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:16:19-74
+activity#com.example.digitalhouse.mvcjsonguiado.v3Offline.ActivityViewPagerProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:17:9-74
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:17:19-71
+activity#com.example.digitalhouse.mvcjsonguiado.v4Refactor.ActivityRecyclerViewProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:18:9-78
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:18:19-75
+activity#com.example.digitalhouse.mvcjsonguiado.v4Refactor.ActivityViewPagerProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:19:9-75
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:19:19-72
+activity#com.example.digitalhouse.mvcjsonguiado.v5LastRefactor.View.ActivityRecyclerViewProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:20:19-84
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.example.digitalhouse.mvcjsonguiado.v5LastRefactor.View.ActivityViewPagerProductos
+ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml:27:19-81
+uses-sdk
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\168cfbfc7e2b4d6e1d999987b0e3d606\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\168cfbfc7e2b4d6e1d999987b0e3d606\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c4a04959a4ce428fa6f59bc438a932c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c4a04959a4ce428fa6f59bc438a932c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e6944422f33c838d98155c585f9c33f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e6944422f33c838d98155c585f9c33f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\2ca343342163656b7659f290540285cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\2ca343342163656b7659f290540285cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\f8d384cdf00c1b4dda01b87203867c06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\f8d384cdf00c1b4dda01b87203867c06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\373874c811ffd9b84bd53e50f8fd577c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\373874c811ffd9b84bd53e50f8fd577c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fe9441a8cc359f67610ae49791051c2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fe9441a8cc359f67610ae49791051c2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\65ad3f272aa5178e954f8cb76204a8db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\65ad3f272aa5178e954f8cb76204a8db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9ddaadbb5b6b7711a9a15ae8aa371fc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9ddaadbb5b6b7711a9a15ae8aa371fc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\85849def7bbc78d1090730209bc22391\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\85849def7bbc78d1090730209bc22391\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\113290280ae90a91ab2cd6c6373690c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\113290280ae90a91ab2cd6c6373690c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\173fa3f5904b97b2a7707de40b36fbe2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\173fa3f5904b97b2a7707de40b36fbe2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9904f81dc170c1922930d7a13042f702\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9904f81dc170c1922930d7a13042f702\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\421ba915b284ac0f78ed4869a6a71ef9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\421ba915b284ac0f78ed4869a6a71ef9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\381bd7fde04de96d31b9c9c40b7cd66b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\381bd7fde04de96d31b9c9c40b7cd66b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8d542e6f779c9f94ca8a23be7ab9a660\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\8d542e6f779c9f94ca8a23be7ab9a660\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\a35f0fc67c4638b42ea3a52599bd4a39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\a35f0fc67c4638b42ea3a52599bd4a39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\cc8a974ae88975685dccd54567549ab9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\cc8a974ae88975685dccd54567549ab9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f6f395fe6d47e248468823dd277bbaca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f6f395fe6d47e248468823dd277bbaca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54b481abec1a9aa87c1402266d6fc6bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54b481abec1a9aa87c1402266d6fc6bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d50ccdffb83aeb1a8cd4c07192d3509c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d50ccdffb83aeb1a8cd4c07192d3509c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7966da29ea5a1b46a03dcfd222c34af6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7966da29ea5a1b46a03dcfd222c34af6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\839fc01423d4f50866e9e56266dc4c93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\839fc01423d4f50866e9e56266dc4c93\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\69264e8b75b57c51120d7978d10a9841\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\69264e8b75b57c51120d7978d10a9841\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e10723e7536fe98e0cf7d9fff42d728f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e10723e7536fe98e0cf7d9fff42d728f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\22fcaccc74d3b605c15d4e3c934203cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\22fcaccc74d3b605c15d4e3c934203cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6d768c5807fce3b62873c39914565059\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6d768c5807fce3b62873c39914565059\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\10c2fdaa58f04c83817cf89965102403\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\10c2fdaa58f04c83817cf89965102403\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d18413683b0b9a31be1dd182a916040d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d18413683b0b9a31be1dd182a916040d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ab14ed0ec906e439af7f3d4c6bf7d460\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ab14ed0ec906e439af7f3d4c6bf7d460\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2df3fd6c6d3ea23619546df39a7646c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2df3fd6c6d3ea23619546df39a7646c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\49a068eabbff5cba9a68df41f8fd595d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\49a068eabbff5cba9a68df41f8fd595d\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DH\Documents\GIT\GitKrakenMike\GitKrakenMike\MVCJsonGuiadoClase\app\src\main\AndroidManifest.xml

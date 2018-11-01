@@ -1,0 +1,4 @@
+#Wed Oct 31 21:39:58 ART 2018
+base.0=C\:\\Users\\DH\\Documents\\GIT\\GitKrakenMike\\GitKrakenMike\\M08C02 - RetrofitBase\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex
