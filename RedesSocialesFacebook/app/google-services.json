@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "159579776466",
+    "firebase_url": "https://redessocialesmike-74072.firebaseio.com",
+    "project_id": "redessocialesmike-74072",
+    "storage_bucket": "redessocialesmike-74072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159579776466:android:6b6c8546cc77714d",
+        "android_client_info": {
+          "package_name": "com.misewgapp.digital.redessocialesfacebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159579776466-44bsi63armk3av2grou629t7jhi9vh07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.misewgapp.digital.redessocialesfacebook",
+            "certificate_hash": "6e205ec8bab6170cc3aacc71b5842a8156fc810e"
+          }
+        },
+        {
+          "client_id": "159579776466-0bo36h0s954ns0k73ec6tnv6nhv9hdpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYnNmeXkX2wstVUyCGL1jK6slmYzy9Yro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159579776466-0bo36h0s954ns0k73ec6tnv6nhv9hdpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

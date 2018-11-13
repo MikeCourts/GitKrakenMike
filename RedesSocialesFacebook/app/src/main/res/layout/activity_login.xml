@@ -10,6 +10,7 @@
     tools:context=".LoginActivity">
 
     <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:elevation="4dp"
@@ -82,5 +83,15 @@
         </LinearLayout>
 
     </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:layout_margin="16dp"
+        android:id="@+id/fab"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="bottom|right"
+        />
 
 </android.support.design.widget.CoordinatorLayout>
