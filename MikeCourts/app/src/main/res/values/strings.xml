@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MikeCourts</string>
+
+    <string name="facebook_app_id">2100442883602133</string>
+    <string name="fb_login_protocol_scheme">fb2100442883602133</string>
+
+
+</resources>

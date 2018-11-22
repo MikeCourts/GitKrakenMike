@@ -1,30 +1,21 @@
-package com.digitalhouse.facebook.view;
+package com.misewgapp.digital.mikecourts.view;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Handler;
 import android.support.annotation.NonNull;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.view.Menu;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.digitalhouse.facebook.R;
 import com.facebook.AccessToken;
-import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
-import com.facebook.Profile;
-import com.facebook.login.LoginManager;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -34,81 +25,41 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.auth.UserInfo;
+import com.misewgapp.digital.mikecourts.R;
+import com.misewgapp.digital.mikecourts.util.Util;
 
-import java.util.List;
-
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
     private CallbackManager callbackManager;
-    private ImageView imageView;
     private FirebaseAuth mAuth;
-    private CollapsingToolbarLayout collapsingToolbarLayout;
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        updateUI(currentUser);
-
-    }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_collapsing, menu);
-
-        return true;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
-        // INICIALIZAR FIREBASE AUTHENTICATION
+
         mAuth = FirebaseAuth.getInstance();
         mAuth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (firebaseAuth.getUid() == null){
-                    collapsingToolbarLayout.setTitle("Facebook");
-                    imageView.setImageResource(R.drawable.comida);
-                }
+
             }
         });
 
-        // COSAS DEL PROYECTO
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        collapsingToolbarLayout = findViewById(R.id.collapsingToolbar);
-        imageView = findViewById(R.id.imageViewPhoto);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
-                LoginManager.getInstance().logOut();
-            }
-        });
-
-        // FACEBOOK LOGIN
+        // FACEBOOK/FIREBASE LOGIN
         callbackManager = CallbackManager.Factory.create();
 
-
-        final LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
+        final LoginButton loginButton = findViewById(R.id.login_button);
         loginButton.setReadPermissions("email", "public_profile");
-        // If using in a fragment
-        //loginButton.setFragment(this);
-
-        // Callback registration
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 // App code
-                Toast.makeText(MainActivity.this, "Exito", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Exito", Toast.LENGTH_SHORT).show();
 
                 // FIREBASE LOGIN
                 handleFacebookAccessToken(loginResult.getAccessToken());
@@ -118,18 +69,17 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancel() {
-                // App code
-                Toast.makeText(MainActivity.this, "Cancel", Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
-            public void onError(FacebookException exception) {
-                // App code
-                Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show();
+            public void onError(FacebookException error) {
+
             }
         });
-    }
 
+
+    }
 
     private void handleFacebookAccessToken(AccessToken token) {
 
@@ -144,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                             updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
-                            Toast.makeText(MainActivity.this, "Authentication failed.",
+                            Toast.makeText(LoginActivity.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                             updateUI(null);
                         }
@@ -164,12 +114,14 @@ public class MainActivity extends AppCompatActivity {
             String name = user.getDisplayName();
             Uri uri = user.getPhotoUrl();
 
-//            Profile profile = Profile.getCurrentProfile();
-//            if (profile != null) {
-//                Uri uri2 = profile.getProfilePictureUri(500, 500);
-            collapsingToolbarLayout.setTitle(name);
-            Glide.with(this).load(uri).into(imageView);
-//            }
+                Intent intent = new Intent(LoginActivity.this, RecyclerActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString(RecyclerActivity.KEY_NAME, user.getDisplayName());
+                bundle.putString(RecyclerActivity.KEY_URI, String.valueOf(user.getPhotoUrl()));
+                intent.putExtras(bundle);
+                startActivity(intent);
+
+
 
         }
     }
@@ -180,4 +132,13 @@ public class MainActivity extends AppCompatActivity {
         callbackManager.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
     }
+
 }
+
+
+//    Intent intent = new Intent(LoginActivity.this, RecyclerActivity.class);
+//    Bundle bundle = new Bundle();
+//            bundle.putString(RecyclerActivity.KEY_NAME, user.getDisplayName());
+//                    bundle.putString(RecyclerActivity.KEY_URI, String.valueOf(user.getPhotoUrl()));
+//                    intent.putExtras(bundle);
+//                    startActivity(intent);
