@@ -7,18 +7,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:gravity="center"
     tools:context=".view.LoginActivity">
 
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
     <ImageView
+        android:layout_gravity="center"
         android:id="@+id/imageViewFBPhoto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
         android:scaleType="centerCrop"
+        android:src="@drawable/ananymous_profile_pic"
 
         />
 
     <TextView
+        android:layout_gravity="center"
         android:id="@+id/textViewNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,12 +31,13 @@
 
         />
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/logoutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="30dp" />
+        android:text="LOGOUT" />
+
+
 
 </LinearLayout>
