@@ -3,6 +3,7 @@ package com.misewgapp.digital.firebasedatabase;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -24,37 +25,38 @@ public class MainActivity extends AppCompatActivity {
         myDatabase = FirebaseDatabase.getInstance();
         myRef = myDatabase.getReference();
 
-//        myRef.child("timeLine").addListenerForSingleValueEvent(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//
-//                for (DataSnapshot childSnapShot : dataSnapshot.getChildren()) {
-//
-//                    Tweet tweet = childSnapShot.getValue(Tweet.class);
-//                    Toast.makeText(MainActivity.this, tweet.toString(), Toast.LENGTH_SHORT).show();
-//
-//                }
-//
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
+        final TextView textView = findViewById(R.id.textTweet);
 
-        DatabaseReference id = myRef.child("timeLine").push();
+        myRef.child("timeLine").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
 
-        myRef.child("timeLine").child(id.getKey()).setValue(new Tweet(id.getKey(), "yo", "por mi", "jaja"));
+                for (DataSnapshot childSnapShot : dataSnapshot.getChildren()){
 
-        myRef.child("timeLine").child("0").child("apodo").setValue("Jefe");
+                    Tweet tweet = childSnapShot.getValue(Tweet.class);
 
-        myRef.child("timeLine").child("3").child("nombre").setValue("Tomas");
+                    Toast.makeText(MainActivity.this, tweet.getNombre().toString() + tweet.getLastTweet(), Toast.LENGTH_SHORT).show();
+                    textView.setText(tweet.getLastTweet());
+                }
+            }
 
-        myRef.child("timeLine").child("3").child("apellido").setValue(null);
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
 
-        myRef.child("timeLine").push().setValue("asd");
+            }
+        });
+
+//        DatabaseReference id = myRef.child("timeLine").push();
+//
+//        myRef.child("timeLine").child(id.getKey()).setValue(new Tweet(id.getKey(), "yo", "por mi", "jaja"));
+//
+//        myRef.child("timeLine").child("0").child("apodo").setValue("Jefe");
+//
+//        myRef.child("timeLine").child("3").child("nombre").setValue("Tomas");
+//
+//        myRef.child("timeLine").child("3").child("apellido").setValue(null);
+//
+//        myRef.child("timeLine").push().setValue("asd");
 
 
 

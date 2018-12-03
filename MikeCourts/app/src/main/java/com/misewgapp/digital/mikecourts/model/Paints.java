@@ -3,12 +3,13 @@ package com.misewgapp.digital.mikecourts.model;
 public class Paints {
     private String image;
     private String name;
-    private Integer artistID;
+    private String artistId;
 
-    public Paints(String image, String name, Integer artistID) {
+
+    public Paints(String image, String name, String artistID) {
         this.image = image;
         this.name = name;
-        this.artistID = artistID;
+        this.artistId = artistID;
     }
 
     public String getImage() {
@@ -19,8 +20,8 @@ public class Paints {
         return name;
     }
 
-    public Integer getArtistID() {
-        return artistID;
+    public String getArtistID() {
+        return artistId;
     }
 
     @Override
@@ -28,7 +29,7 @@ public class Paints {
         return "Paints{" +
                 "image='" + image + '\'' +
                 ", name='" + name + '\'' +
-                ", artistID=" + artistID +
+                ", artistID=" + artistId +
                 '}';
     }
 }

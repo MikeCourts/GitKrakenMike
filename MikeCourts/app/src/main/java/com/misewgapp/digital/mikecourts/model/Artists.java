@@ -3,20 +3,24 @@ package com.misewgapp.digital.mikecourts.model;
 import java.util.List;
 
 public class Artists {
-    private Integer id;
+    private String artistId;
     private String name;
     private String nationality;
-    private List<Artists> Influenced_by;
+    private String Influenced_by;
 
-    public Artists(Integer id, String name, String nationality, List<Artists> influenced_by) {
-        this.id = id;
+    public Artists(){
+
+    }
+
+    public Artists(String artistId, String name, String nationality, String influenced_by) {
+        this.artistId = artistId;
         this.name = name;
         this.nationality = nationality;
         Influenced_by = influenced_by;
     }
 
-    public Integer getId() {
-        return id;
+    public String getArtistId() {
+        return artistId;
     }
 
     public String getName() {
@@ -27,17 +31,33 @@ public class Artists {
         return nationality;
     }
 
-    public List<Artists> getInfluenced_by() {
+    public String getInfluenced_by() {
         return Influenced_by;
+    }
+
+    public void setArtistId(String artistId) {
+        this.artistId = artistId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
+    public void setInfluenced_by(String influenced_by) {
+        Influenced_by = influenced_by;
     }
 
     @Override
     public String toString() {
         return "Artists{" +
-                "id=" + id +
+                "artistId='" + artistId + '\'' +
                 ", name='" + name + '\'' +
                 ", nationality='" + nationality + '\'' +
-                ", Influenced_by=" + Influenced_by +
+                ", Influenced_by='" + Influenced_by + '\'' +
                 '}';
     }
 }

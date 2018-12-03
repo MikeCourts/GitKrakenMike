@@ -1,9 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.DetailActivity">
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:fillViewport="true"
 
-</android.support.constraint.ConstraintLayout>
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+
+        <ImageView
+            android:id="@+id/imageView_detail"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+
+
+            tools:src="@drawable/michelangelo_perpetualmotion" />
+
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/textView_PaintingName_detail"
+            android:layout_marginBottom="12dp"
+            android:textSize="35sp"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Super Mario Bros" />
+
+        <View style="@style/dividerHorizontal"
+            android:layout_margin="8dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_gravity="center"
+            >
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist:"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+             />
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:id="@+id/textView_artistName_detail"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Super Mario Bros" />
+
+        </LinearLayout>
+
+        <View style="@style/dividerHorizontal"
+            android:layout_margin="8dp"
+            />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        >
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nationality:"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:id="@+id/textView_artistNationality_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="Super Mario Bros" />
+
+    </LinearLayout>
+
+        <View style="@style/dividerHorizontal"
+            android:layout_margin="8dp"
+            />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Influences:"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:id="@+id/textView_artistInfluencedBy_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="12dp"
+            tools:text="Super Mario Bros" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+

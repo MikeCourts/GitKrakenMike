@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     tools:context=".view.LoginActivity"
-    android:background="@drawable/my_background"
+    android:background="@drawable/fondo_beso_klimt"
 
     >
 

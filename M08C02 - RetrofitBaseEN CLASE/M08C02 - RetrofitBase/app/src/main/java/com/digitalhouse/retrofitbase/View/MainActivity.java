@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView textView = findViewById(R.id.textview);
+//        TextView textView = findViewById(R.id.textview);
         ListView listView = findViewById(R.id.listView);
 
         ControllerMovies controllerMovies = new ControllerMovies();

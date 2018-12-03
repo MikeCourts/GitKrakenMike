@@ -6,37 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center"
+    android:gravity="center"
+
+
     tools:context=".view.LoginActivity">
 
     <include layout="@layout/toolbar"
         android:id="@+id/toolbar"/>
 
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
     <ImageView
-        android:layout_gravity="center"
-        android:id="@+id/imageViewFBPhoto"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ananymous_profile_pic"
-
-        />
-
-    <TextView
-        android:layout_gravity="center"
-        android:id="@+id/textViewNombre"
+        android:id="@+id/imageView_newFoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
 
         />
-
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/logoutButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LOGOUT" />
 
 
 
